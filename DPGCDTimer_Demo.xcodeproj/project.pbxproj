@@ -16,6 +16,7 @@
 		493E70811FF3846D000A97A4 /* DPGCDTimer_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 493E70801FF3846D000A97A4 /* DPGCDTimer_DemoTests.m */; };
 		493E708C1FF3846D000A97A4 /* DPGCDTimer_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 493E708B1FF3846D000A97A4 /* DPGCDTimer_DemoUITests.m */; };
 		493E709C1FF38484000A97A4 /* DPGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 493E709B1FF38484000A97A4 /* DPGCDTimer.m */; };
+		49FB0D392264865200DEB82C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49FB0D382264865200DEB82C /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		493E708D1FF3846D000A97A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		493E709A1FF38484000A97A4 /* DPGCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPGCDTimer.h; sourceTree = "<group>"; };
 		493E709B1FF38484000A97A4 /* DPGCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPGCDTimer.m; sourceTree = "<group>"; };
+		49FB0D382264865200DEB82C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49FB0D392264865200DEB82C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +91,7 @@
 				493E707F1FF3846D000A97A4 /* DPGCDTimer_DemoTests */,
 				493E708A1FF3846D000A97A4 /* DPGCDTimer_DemoUITests */,
 				493E70651FF3846D000A97A4 /* Products */,
+				49FB0D372264865100DEB82C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +147,14 @@
 				493E709B1FF38484000A97A4 /* DPGCDTimer.m */,
 			);
 			path = DPGCDTimer;
+			sourceTree = "<group>";
+		};
+		49FB0D372264865100DEB82C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49FB0D382264865200DEB82C /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

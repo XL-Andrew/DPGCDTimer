@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 typedef void (^TimerStartBlock)(void);      //定时器开始回调
 typedef void (^TimerRunBlock)(NSUInteger runTimes, NSUInteger currentTime);        //定时器运行回调
